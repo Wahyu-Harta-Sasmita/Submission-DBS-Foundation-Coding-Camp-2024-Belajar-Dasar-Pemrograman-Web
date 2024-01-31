@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Queen</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/aq-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Fonts End -->
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#"><img src="img/aq-icon.png" alt="aq-1"></a>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hideSidebar()><a href="#summary">Summary</a></li>
+                <li onclick=hideSidebar()><a href="#statistics">Statistics</a></li>
+                <li onclick=hideSidebar()><a href="#equipments">Equipments</a></li>
+                <li onclick=hideSidebar()><a href="#skins">Skins</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="#">Home</a></li>
+                <li class="hideOnMobile"><a href="#summary">Summary</a></li>
+                <li class="hideOnMobile"><a href="#statistics">Statistics</a></li>
+                <li class="hideOnMobile"><a href="#equipments">Equipments</a></li>
+                <li class="hideOnMobile"><a href="#skins">Skins</a></li>
+                <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="headerp">
+                <p>ARCHER QUEEN</p>
+                <p class="sec-p">The Second Hero In Clash Of Clans</p>
+            </div>
+            <img src="img/aq-1.png" alt="aq-2">
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <section>
+                <article id="summary">
+                    <h2>Summary</h2>
+                    <div class="content-summary">
+                        <img src="img/aq-2.png" alt="aq-3">
+                        <ul>
+                            <li>
+                                <p>
+                                    The Archer Queen is essentially a more powerful version of the Archer. She is the second Hero,  being    unlocked at Town Hall 9. In addition to possessing much higher damage and hitpoints, the    Archer Queen  also shoots 1.5 tiles farther than a normal Archer (5 tiles instead of 3.5 tiles).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The Archer Queen will defend the village whenever she's not regenerating health from a previous     attack.     The Archer Queen only defends her territory around her altar and will retreat if lured  too far out. If  the village is attacked while she is regenerating health or being upgraded, her     altar will be empty.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The Archer Queen is an immortal unit, so she only has to be summoned once. However, if she is   injured   or gets defeated in an attack, she must regenerate her health by sleeping for a period of   time before     she can be used again.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hero regeneration in the Home Village uses an "extra life" system: when fully regenerated, the  Archer Queen has two "life bars", each with health equal to her maximum hitpoints. The first life    bar is represented by the bar visible next to the Queen's level, with the second (the "extra life")    represented by a heart placed at the end of the first life bar, with a "+1" when it is full.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Any damage taken by the Archer Queen when attacking is first subtracted from the extra life bar,    with the regular life bar only being reduced when the extra life bar is fully depleted. If the     Archer Queen is defeated, a full life bar will be depleted; in particular, if the extra life bar is     full when this occurs, it will be completely depleted without affecting the regular life bar. If    the Archer Queen is damaged or defeated when defending, the life bars will be completely unaffected.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                <article id="statistics">
+                    <h2>Statistics</h2>
+                    <div class="stat">
+                        <table class="tab">
+                            <tr>
+                                <th class="lv">Level</th>
+                                <th>Damage Per Hit</th>
+                                <th class="health">Health Recovery</th>
+                                <th class="th">Town Hall Required</th>
+                            </tr>
+                            <tr>
+                                <td class="lv">1</td>
+                                <td class="dmg">102</td>
+                                <td class="health">115</td>
+                                <td class="th">9</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">10</td>
+                                <td class="dmg">126.75</td>
+                                <td class="health">145</td>
+                                <td class="th">9</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">20</td>
+                                <td class="dmg">162.75</td>
+                                <td class="health">175</td>
+                                <td class="th">9</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">30</td>
+                                <td class="dmg">208.5</td>
+                                <td class="health">205</td>
+                                <td class="th">9</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">40</td>
+                                <td class="dmg">267</td>
+                                <td class="health">235</td>
+                                <td class="th">10</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">50</td>
+                                <td class="dmg">342</td>
+                                <td class="health">265</td>
+                                <td class="th">11</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">60</td>
+                                <td class="dmg">419.25</td>
+                                <td class="health">295</td>
+                                <td class="th">12</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">70</td>
+                                <td class="dmg">498</td>
+                                <td class="health">325</td>
+                                <td class="th">13</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">80</td>
+                                <td class="dmg">535.5</td>
+                                <td class="health">355</td>
+                                <td class="th">14</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">90</td>
+                                <td class="dmg">568.5</td>
+                                <td class="health">485</td>
+                                <td class="th">15</td>
+                            </tr>
+                            <tr>
+                                <td class="lv">95</td>
+                                <td class="dmg">571.5</td>
+                                <td class="health">385</td>
+                                <td class="th">16</td>
+                            </tr>
+                        </table>
+                        <img src="img/aq-4.png" alt="aq-5">
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article id="equipments">
+                    <h2>Equipments</h2>
+                    <div class="equip1-2">
+                        <div class="equip-1">
+                            <img src="img/Invisibility_Vial.webp" alt="equip-1">
+                            <h3>Invisibility Vial</h3>
+                            <p>
+                                The Invisibility Vial is super important for the Archer Queen in Clash of Clans. It lets her turn   invisible for a short time, making her sneak past enemy defenses. The good news is, it’s the default  equipment for Archer Queen, so you dont need to unlock it separately when you get her.
+                            </p>
+                        </div>
+                        <div class="equip-2">
+                            <img src="img/Giant_Arrow.webp" alt="equip-2">
+                            <h3>Giant Arrow</h3>
+                            <p>
+                                When the Archer Queen uses her special ability (with the Giant Arrow equipped), she shoots a massive    arrow from her bow. This arrow travels in a straight line across the entire base, damaging every   building it passes through. Players commonly use the Giant Arrow to target enemy Air Defenses and other   defense buildings with moderate health, like Archer Towers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="equip3-4">
+                        <div class="equip-3">
+                            <img src="img/Healer_Puppet.webp" alt="equip-3">
+                            <h3>Healer Puppet</h3>
+                            <p>
+                                Some players like the Healer Puppet as a top-notch equipment choice for Archer Queen. It comes in handy     for Queen Charge attack strategies. This equipment can be a lifesaver if you lose Healers during a  Queen Charge. Plus, you can get more Healers by using the Archer Queen’s ability at just the right   moment.
+                            </p>
+                        </div>
+                        <div class="equip-4">
+                            <img src="img/Archer_Puppet.webp" alt="equip-4">
+                            <h3>Archer Puppet</h3>
+                            <p>
+                                Choosing the Archer Puppet can be a smart move if you want to save your Ores for upcoming equipment,    like the Frozen Arrow. When you activate the Archer Puppet, it spawns several Archers around the Archer    Queen. These little Archers act as both damage tanks and help in taking down nearby defenses.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article id="skins">
+                    <h2>Hero Skins</h2>
+                    <div class="skin-top">
+                        <div class="skins-1">
+                            <img src="img/aq-2.png" alt="1">
+                            <p>Autumn Queen</p>
+                        </div>
+                        <div class="skins-2">
+                            <img src="img/aq-3.png" alt="2">
+                            <p>Archer Queen</p>
+                        </div>
+                        <div class="skins-3">
+                            <img src="img/aq-4.png" alt="3">
+                            <p>Ice Queen</p>
+                        </div>
+                    </div>
+                    <div class="skin-mid">
+                        <div class="skins-4">
+                            <img src="img/aq-5.png" alt="4">
+                            <p>Valkyrie Queen</p>
+                        </div>
+                        <div class="skins-5">
+                            <img src="img/aq-6.png" alt="5">
+                            <p>Jungle Queen</p>
+                        </div>
+                        <div class="skins-6">
+                            <img src="img/aq-7.png" alt="6">
+                            <p>Gladiator Queen</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>  
+        <aside id="aside"> 
+            <h2>Archer Queen</h2>
+            <figure>    
+                <img src="img/aq-3.png" alt="aq-4">
+            </figure>
+            <p>
+                "This graceful huntress is a master of destructive force, though modest in health. She snipes targets in her territory when defending, and can summon stealth and terrifying damage when attacking once her Royal Cloak ability is unlocked!"
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <img src="img/coc-logo.png" alt="coc-logo">
+        <section>
+            <div class="footer1">
+                <p>© 2024 Clash of Clans</p>
+                <p>Terms of Service | Privacy Policy</p>
+            </div>
+            <div class="footer2">
+                <p>For more information, visit the official website: <a href="https://clashofclans.com/">clashofclans.com</a></p>
+                <p>Project Submission For Dicoding</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
